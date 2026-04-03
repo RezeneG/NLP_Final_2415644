@@ -67,6 +67,7 @@ Safeguards implemented: Stratified splitting, macro F1 monitoring, human‑in‑
 Full discussion in notebook (section d).
 
 References
+
 Kim, Y. (2014). Convolutional neural networks for sentence classification. EMNLP.
 
 Sanh, V. et al. (2019). DistilBERT. NeurIPS EMC2 Workshop.
