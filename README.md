@@ -81,7 +81,7 @@ Author
 Rezene Ghebrehiwot – NLP_ Final_Report, St Mary's University, 03/04/2026
 
 License
-MIT License
+This project is licensed under the terms of the [MIT License](LICENSE)
 
 text
 
