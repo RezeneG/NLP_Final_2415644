@@ -58,6 +58,45 @@ All transformers fine‑tuned with **200 training samples** (subset due to GPU q
    - Neural network training will use the full training set (~113k samples).  
    - Transformer training uses a **200‑sample subset** (to respect memory limits).  
    - Final evaluation uses the full test set (24k samples).
+  
+## Ethical Considerations
+Potential harms: Misrouting serious complaints could delay regulatory action; bias against minority product classes.
+
+Safeguards implemented: Stratified splitting, macro F1 monitoring, human‑in‑the‑loop for low‑confidence predictions, logging, and model cards.
+
+Full discussion in notebook (section d).
+
+References
+Kim, Y. (2014). Convolutional neural networks for sentence classification. EMNLP.
+
+Sanh, V. et al. (2019). DistilBERT. NeurIPS EMC2 Workshop.
+
+Lan, Z. et al. (2020). ALBERT. ICLR.
+
+He, P. et al. (2021). DeBERTa. ICLR.
+
+Mitchell, M. et al. (2019). Model cards for model reporting. FAccT.
+
+Author
+Rezene Ghebrehiwot – NLP_ Final_Report, St Mary's University, 03/04/2026
+
+License
+MIT License
+
+text
+
+---
+
+**Instructions:**
+1. Create a new file in your GitHub repository called `README.md`.
+2. Copy the above content into it.
+3. Replace `[Your Name]`, `[University Name]`, `[Date]` with your details.
+4. If your results differ (e.g., CNN/BiLSTM numbers), update the table accordingly.
+5. Commit and push the file.
+
+You can also add a **badge** for the Colab link (optional). For example:
+```markdown
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/Consumer_Complaint_Classification.ipynb)
 
 ### Dependencies
 Install required libraries:
